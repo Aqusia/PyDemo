@@ -68,3 +68,11 @@ days = 2
 # output info
 print(f"Company: {company}, Price: ${price:.2f}, Code: {code}")
 print("Daily Change: %.2f, Days: %d, Total: %.3f" % (daily_change, days, price *(daily_change**days) ))
+
+name = input("請輸入你的名字：")
+print (f"Hello, {name}!")
+
+#input 預設是 String 型態，如果需要其他型態的資料，則需要進行轉換。
+age = int(input("請輸入你的年齡："))
+print (f"你今年 {age} 歲了！")
+print (type(age))
